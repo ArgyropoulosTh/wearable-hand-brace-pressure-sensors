@@ -189,9 +189,7 @@ The project includes embedded sensing and data processing components used to acq
 
 # 📄 Documentation
 
-* MSc Thesis (link if publicly shareable)
-* Risk analysis summary
-* Test methodology
+* MSc Thesis (link: https://resolver.tudelft.nl/uuid:38cd6cb1-9a50-4695-b6f1-0d593d78411b)
 
 ---
 
