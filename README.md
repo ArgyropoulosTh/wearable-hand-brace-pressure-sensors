@@ -74,7 +74,7 @@ FEA was conducted to:
 
 ---
 
-[Watch demo](assets/videos/Abaqus.Ext.mp4)
+[Watch demo](assets/videos/Abaqus-Ext.mp4)
 
 ---
 
