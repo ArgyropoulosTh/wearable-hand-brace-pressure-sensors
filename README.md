@@ -56,8 +56,6 @@ The orthosis geometry was customized to match patient anatomy using CAD modeling
 * strap positioning
 * sensor placement zones
 
-🖼 *Add CAD images here*
-
 ![CAD model](assets/images/Front_view_Hand_Brace_arduino.png)
 
 ---
@@ -71,9 +69,15 @@ FEA was conducted to:
 * verify structural safety
 * support design optimization
 
-🖼 *Add FEA plots here*
+
 ![FEA results](assets/images/Abaqus-Straps.png)
+
+---
+
 [Watch demo](assets/videos/Abaqus.Ext.mov)
+
+---
+
 ![FEA results](assets/images/Abaqus-FEA.png)
 ![FEA results](assets/images/Abaqus-FEA-I.png)
 ![FEA results](assets/images/Abaqus-FEA-II.png)
