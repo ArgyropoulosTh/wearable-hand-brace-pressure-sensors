@@ -73,7 +73,11 @@ FEA was conducted to:
 
 🖼 *Add FEA plots here*
 ![FEA results](assets/images/Abaqus-Straps.png)
+[Watch demo](assets/videos/Abaqus.Ext.mov)
 ![FEA results](assets/images/Abaqus-FEA.png)
+![FEA results](assets/images/Abaqus-FEA-I.png)
+![FEA results](assets/images/Abaqus-FEA-II.png)
+
 
 
 ---
@@ -90,7 +94,7 @@ The brace integrates pressure sensors enabling continuous interface monitoring.
 
 🖼 *Add electronics/sensor photos*
 
-![Sensors](assets/images/hand-brace-sensors.jpg)
+![Sensors](assets/images/Sensors.png)
 
 ---
 
@@ -112,7 +116,7 @@ Technologies evaluated:
 
 🖼 *Add prototype photos*
 
-![Prototype](assets/images/hand-brace-prototype-v1.jpg)
+![Prototype](assets/images/Hand-Brace-Prototype.jpeg)
 
 ---
 
@@ -146,16 +150,6 @@ This work contributes toward next-generation **smart wearable orthoses** that co
 
 The project includes embedded sensing and data processing components used to acquire and analyze interface pressure measurements.
 
-## Repository Structure
-
-```
-src/
-├── data_acquisition/
-├── signal_processing/
-├── visualization/
-└── utils/
-```
-
 ## Key Capabilities
 
 * Pressure sensor data acquisition
@@ -187,7 +181,7 @@ src/
 
 ## Demo Video
 
-[Watch demo](assets/videos/demo.mp4)
+[Watch demo](assets/videos/Hand-Brace-Short.mp4)
 
 ---
 
