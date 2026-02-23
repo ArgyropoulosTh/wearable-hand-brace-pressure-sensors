@@ -169,6 +169,22 @@ The project includes embedded sensing and data processing components used to acq
 
 ⚠️ *Note:* The repository contains representative code for demonstration purposes. Hardware-specific configurations may be simplified for portability.
 
+## 🔌 Embedded Firmware (Arduino)
+
+The wearable brace integrates pressure sensors connected to a microcontroller for real-time data acquisition.
+
+**Key features:**
+
+* Multi-sensor pressure acquisition
+* Configurable sampling rate
+* Lightweight embedded implementation
+
+**Firmware location:**
+
+```text
+arduino/MULTIPLE_FSR_CODE.ino
+```
+
 # 🎥 Media
 
 ## Demo Video
