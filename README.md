@@ -74,7 +74,7 @@ FEA was conducted to:
 
 ---
 
-[Watch demo](assets/videos/Abaqus.Ext.mov)
+[Watch demo](assets/videos/Abaqus.Ext.mp4)
 
 ---
 
@@ -96,7 +96,6 @@ The brace integrates pressure sensors enabling continuous interface monitoring.
 * potential real-time feedback
 * support for clinical evaluation
 
-🖼 *Add electronics/sensor photos*
 
 ![Sensors](assets/images/Sensors.png)
 
@@ -118,7 +117,6 @@ Technologies evaluated:
 * dimensional accuracy
 * repeatability
 
-🖼 *Add prototype photos*
 
 ![Prototype](assets/images/Hand-Brace-Prototype.jpeg)
 
