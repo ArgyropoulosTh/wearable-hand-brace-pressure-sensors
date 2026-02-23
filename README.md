@@ -135,7 +135,7 @@ The orthosis integrates pressure sensors enabling:
 
 ### Prototype
 
-![Prototype](assets/images/Hand-Brace-Prototype.png)
+![Prototype](assets/images/Hand-Brace-Prototype.jpeg)
 
 ### Demo Video
 
