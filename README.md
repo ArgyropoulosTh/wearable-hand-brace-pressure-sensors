@@ -91,9 +91,7 @@ Finite Element Analysis was performed to:
 * verify structural integrity
 * support design optimization
 
-*(Add FEA images here)*
-
-![FEA results](assets/images/fea-results.png)
+![FEA results](assets/images/Abaqus-FEA.png)
 
 ---
 
@@ -137,7 +135,7 @@ The orthosis integrates pressure sensors enabling:
 
 ### Prototype
 
-![Prototype](assets/images/prototype-v1.jpg)
+![Prototype](assets/images/Hand-Brace-Prototype.png)
 
 ### Demo Video
 
