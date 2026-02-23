@@ -1,165 +1,204 @@
 # Personalized 3D-Printed Hand Brace with Pressure Sensors
 
-Wearable orthotic device designed for continuous pressure monitoring and enhanced patient-specific support.
+Patient-specific wearable orthosis integrating embedded pressure sensing for continuous biomechanical monitoring and improved comfort.
 
 **Status:** Completed (MSc Thesis)
-**Role:** Lead Design & Development
 **Institution:** Delft University of Technology
-**Domain:** Medical Device • Wearable • Biomechanics
+**Role:** Lead Design & Development
+**Domain:** Medical Device • Wearable Biomechanics • Additive Manufacturing
 
 ---
 
-## 🔍 Overview
+# 📌 Abstract / Overview
 
-This project focused on the design and development of a patient-specific wearable hand orthosis integrating embedded pressure sensors for continuous monitoring and feedback. The system aims to improve functional support while enabling quantitative assessment of interface pressures in rehabilitation and assistive scenarios.
+This project presents the design and evaluation of a personalized 3D-printed hand brace integrating pressure sensors for continuous monitoring of the hand–orthosis interface. The work combines biomechanical design, additive manufacturing, embedded sensing, and regulatory-oriented risk analysis to improve patient comfort and enable quantitative clinical feedback.
 
-The work combined biomechanical design, additive manufacturing, embedded sensing, and regulatory-oriented risk analysis aligned with MDR expectations.
-
----
-
-## ❗ Problem
-
-Conventional hand orthoses often:
-
-* lack patient-specific geometry
-* provide limited quantitative feedback
-* create pressure hotspots and discomfort
-* offer minimal continuous monitoring capability
-
-There is a need for **customizable, sensor-enabled wearable orthoses** that improve both comfort and clinical insight.
+The proposed system aims to bridge the gap between conventional passive orthoses and data-driven wearable medical devices.
 
 ---
 
-## 💡 Solution
+# ❗ Problem Statement
 
-I developed a fully personalized 3D-printed hand brace with integrated pressure sensing capable of:
+Conventional hand orthoses often suffer from:
 
-* patient-specific anatomical fit
-* continuous pressure monitoring
-* improved comfort and wearability
-* data-driven clinical evaluation
+* Poor anatomical fit
+* Lack of quantitative feedback
+* Localized pressure discomfort
+* Limited capability for continuous monitoring
 
----
-
-## 🧠 My Contributions
-
-* Designed patient-specific orthosis geometry
-* Performed CAD modeling and design iterations
-* Integrated embedded pressure sensors
-* Conducted Finite Element Analysis (FEA)
-* Executed ISO 14971 risk analysis
-* Collaborated with clinicians for usability evaluation
-* Validated material comfort and biocompatibility
-* Performed functional testing aligned with MDR principles
+These limitations reduce patient compliance and restrict clinicians’ ability to objectively evaluate orthotic performance.
 
 ---
 
-## 🛠 Design & Engineering
+# 🎯 Project Objectives
 
-### Requirements
+The main objectives were:
 
-* Patient-specific fit
-* Lightweight and breathable structure
-* Safe skin contact
-* Reliable pressure sensing
-* Manufacturable via additive manufacturing
+* Develop a **patient-specific hand orthosis**
+* Integrate **embedded pressure sensing**
+* Ensure **biocompatible and comfortable design**
+* Validate structural integrity via FEA
+* Perform **risk analysis aligned with ISO 14971**
+* Demonstrate manufacturability via 3D printing
 
 ---
 
-### CAD & Structural Design
+# 🛠 Methodology & Design Process
 
-*(Add renders below)*
+## 1️⃣ Patient-Specific Design
 
-![Hand brace CAD](assets/images/hand-brace-cad.png)
+The orthosis geometry was customized to match patient anatomy using CAD modeling and iterative refinement.
 
-Key considerations:
+**Key design considerations:**
 
 * ergonomic contouring
+* ventilation and weight reduction
 * strap positioning
 * sensor placement zones
-* ventilation pattern
-* structural stiffness vs. flexibility
+
+🖼 *Add CAD images here*
+
+![CAD model](assets/images/Front_view_Hand_Brace_arduino.png)
 
 ---
 
-### Simulation & Analysis
+## 2️⃣ Finite Element Analysis (FEA)
 
-Finite Element Analysis was performed to:
+FEA was conducted to:
 
 * evaluate stress distribution
 * identify pressure concentration zones
-* verify structural integrity
+* verify structural safety
 * support design optimization
 
+🖼 *Add FEA plots here*
+![FEA results](assets/images/Abaqus-Straps.png)
 ![FEA results](assets/images/Abaqus-FEA.png)
+
 
 ---
 
-### Prototyping & Manufacturing
+## 3️⃣ Embedded Pressure Sensing
 
-**Manufacturing method:** 3D Printing
-**Technologies considered:** FDM / SLS / SLA
+The brace integrates pressure sensors enabling continuous interface monitoring.
 
-Key focus areas:
+**System capabilities:**
 
-* print orientation optimization
+* localized pressure measurement
+* potential real-time feedback
+* support for clinical evaluation
+
+🖼 *Add electronics/sensor photos*
+
+![Sensors](assets/images/hand-brace-sensors.jpg)
+
+---
+
+## 4️⃣ Prototyping & Manufacturing
+
+**Manufacturing method:** Additive Manufacturing (3D Printing)
+
+Technologies evaluated:
+
+* FDM
+* SLA
+
+**Key manufacturing considerations:**
+
+* print orientation
 * surface finish for skin contact
 * dimensional accuracy
 * repeatability
 
----
+🖼 *Add prototype photos*
 
-### Embedded Sensing
-
-The orthosis integrates pressure sensors enabling:
-
-* continuous interface monitoring
-* quantitative feedback
-* potential real-time assessment
-
-*(Add electronics or wiring photos if available)*
+![Prototype](assets/images/hand-brace-prototype-v1.jpg)
 
 ---
 
-## 📊 Results
+# 📊 Validation & Results
 
-* Achieved patient-specific anatomical fit
-* Demonstrated reliable pressure measurement capability
-* Improved comfort compared to rigid generic orthoses
-* Validated structural performance via FEA
-* Completed risk analysis aligned with ISO 14971
+The developed orthosis demonstrated:
+
+* successful patient-specific fit
+* reliable pressure sensing capability
+* improved comfort compared to rigid orthoses
+* structural integrity confirmed via FEA
+* risk analysis completed per ISO 14971 framework
 
 ---
 
-## 🖼 Media
+# 🔍 Key Insights
 
-### Prototype
+* Personalization significantly improves wearability
+* Additive manufacturing enables rapid customization
+* Embedded sensing adds valuable clinical feedback
+* Early risk analysis supports MDR readiness
 
-![Prototype](assets/images/Hand-Brace-Prototype.jpeg)
+---
 
-### Demo Video
+# 🚀 Impact
+
+This work contributes toward next-generation **smart wearable orthoses** that combine mechanical support with quantitative monitoring, supporting the transition toward data-driven rehabilitation devices.
+
+---
+# 💻 Code & Data Processing
+
+The project includes embedded sensing and data processing components used to acquire and analyze interface pressure measurements.
+
+## Repository Structure
+
+```
+src/
+├── data_acquisition/
+├── signal_processing/
+├── visualization/
+└── utils/
+```
+
+## Key Capabilities
+
+* Pressure sensor data acquisition
+* Signal filtering and preprocessing
+* Data visualization and analysis
+* Support for experimental validation workflows
+
+## Technologies Used
+
+* Python
+* Arduino IDE
+* Embedded pressure sensors
+* Serial communication
+
+---
+
+⚠️ *Note:* The repository contains representative code for demonstration purposes. Hardware-specific configurations may be simplified for portability.
+
+# 🔮 Future Work
+
+* wireless data transmission
+* real-time monitoring platform
+* extended clinical validation
+* design for scalable mass customization
+
+---
+
+# 🎥 Media
+
+## Demo Video
 
 [Watch demo](assets/videos/demo.mp4)
 
 ---
 
-## 🔬 Documentation
+# 📄 Documentation
 
-* MSc Thesis (if shareable)
+* MSc Thesis (link if publicly shareable)
 * Risk analysis summary
 * Test methodology
 
 ---
 
-## 🔮 Future Work
+# 🔒 Confidentiality Note
 
-* real-time wireless data transmission
-* closed-loop feedback system
-* extended clinical validation
-* design for mass customization
-
----
-
-## 🔒 Notes on Confidentiality
-
-This repository contains selected technical material suitable for public portfolio demonstration. Sensitive or proprietary details have been intentionally omitted.
+This repository contains selected technical material for portfolio purposes. Sensitive or proprietary details have been intentionally omitted.
