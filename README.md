@@ -148,7 +148,7 @@ The developed orthosis demonstrated:
 This work contributes toward next-generation **smart wearable orthoses** that combine mechanical support with quantitative monitoring, supporting the transition toward data-driven rehabilitation devices.
 
 ---
-# 💻 Code & Data Processing
+## 💻 Code & Data Processing
 
 The project includes embedded sensing and data processing components used to acquire and analyze interface pressure measurements.
 
