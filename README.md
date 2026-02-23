@@ -38,7 +38,6 @@ The main objectives were:
 * Integrate **embedded pressure sensing**
 * Ensure **biocompatible and comfortable design**
 * Validate structural integrity via FEA
-* Perform **risk analysis aligned with ISO 14971**
 * Demonstrate manufacturability via 3D printing
 
 ---
@@ -78,7 +77,6 @@ FEA was conducted to:
 
 ---
 
-![FEA results](assets/images/Abaqus-FEA.png)
 ![FEA results](assets/images/Abaqus-FEA-I.png)
 ![FEA results](assets/images/Abaqus-FEA-II.png)
 
@@ -93,11 +91,12 @@ The brace integrates pressure sensors enabling continuous interface monitoring.
 **System capabilities:**
 
 * localized pressure measurement
-* potential real-time feedback
+* real-time feedback
 * support for clinical evaluation
 
 
 ![Sensors](assets/images/Sensors.png)
+![Sensors](assets/images/Dashboard.png)
 
 ---
 
@@ -113,6 +112,7 @@ Technologies evaluated:
 **Key manufacturing considerations:**
 
 * print orientation
+* material selection
 * surface finish for skin contact
 * dimensional accuracy
 * repeatability
@@ -130,8 +130,7 @@ The developed orthosis demonstrated:
 * reliable pressure sensing capability
 * improved comfort compared to rigid orthoses
 * structural integrity confirmed via FEA
-* risk analysis completed per ISO 14971 framework
-
+* benefits for both patients and clinicians through the interactive platform
 ---
 
 # 🔍 Key Insights
@@ -164,20 +163,11 @@ The project includes embedded sensing and data processing components used to acq
 * Python
 * Arduino IDE
 * Embedded pressure sensors
-* Serial communication
+* WiFi communication 
 
 ---
 
 ⚠️ *Note:* The repository contains representative code for demonstration purposes. Hardware-specific configurations may be simplified for portability.
-
-# 🔮 Future Work
-
-* wireless data transmission
-* real-time monitoring platform
-* extended clinical validation
-* design for scalable mass customization
-
----
 
 # 🎥 Media
 
