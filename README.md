@@ -123,7 +123,7 @@ Technologies evaluated:
 
 ---
 
-# 📊 Validation & Results
+#  Validation & Results
 
 The developed orthosis demonstrated:
 
