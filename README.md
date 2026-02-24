@@ -161,7 +161,6 @@ The project includes embedded sensing and data processing components used to acq
 
 ## Technologies Used
 
-* Python
 * Arduino IDE
 * Embedded pressure sensors
 * WiFi communication 
