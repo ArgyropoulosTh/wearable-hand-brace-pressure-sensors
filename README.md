@@ -168,7 +168,7 @@ The project includes embedded sensing and data processing components used to acq
 
 ---
 
-⚠️ *Note:* The repository contains representative code for demonstration purposes. Hardware-specific configurations may be simplified for portability.
+*Note:* The repository contains representative code for demonstration purposes. Hardware-specific configurations may be simplified for portability.
 
 ## Embedded Firmware (Arduino)
 
@@ -200,6 +200,6 @@ arduino/MULTIPLE_FSR_CODE.ino
 
 ---
 
-# 🔒 Confidentiality Note
+# Confidentiality Note
 
 This repository contains selected technical material for portfolio purposes. Sensitive or proprietary details have been intentionally omitted.
