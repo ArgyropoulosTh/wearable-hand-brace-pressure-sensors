@@ -73,7 +73,7 @@ FEA was conducted to:
 
 ---
 
-![Brace demo](assets/gifs/Abaqus-Ext.gif)
+![Brace FEA_demo](assets/gifs/Abaqus-Ext.gif)
 
 
 ---
@@ -190,7 +190,7 @@ arduino/MULTIPLE_FSR_CODE.ino
 
 ## Demo Video
 
-[Watch demo](assets/videos/Hand-Brace-Short.mp4)
+![Brace demo](assets/gifs/Hand-Brace-Short.gif)
 
 ---
 
