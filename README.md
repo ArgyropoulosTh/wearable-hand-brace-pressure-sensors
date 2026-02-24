@@ -73,7 +73,8 @@ FEA was conducted to:
 
 ---
 
-[Watch demo](assets/videos/Abaqus-Ext.mp4)
+![Brace demo](assets/gifs/Abaqus-Ext.gif)
+
 
 ---
 
