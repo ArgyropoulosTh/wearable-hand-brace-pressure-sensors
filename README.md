@@ -9,7 +9,7 @@ Patient-specific wearable orthosis integrating embedded pressure sensing for con
 
 ---
 
-# 📌 Abstract / Overview
+# Abstract / Overview
 
 This project presents the design and evaluation of a personalized 3D-printed hand brace integrating pressure sensors for continuous monitoring of the hand–orthosis interface. The work combines biomechanical design, additive manufacturing, embedded sensing, and regulatory-oriented risk analysis to improve patient comfort and enable quantitative clinical feedback.
 
@@ -17,7 +17,7 @@ The proposed system aims to bridge the gap between conventional passive orthoses
 
 ---
 
-# ❗ Problem Statement
+# Problem Statement
 
 Conventional hand orthoses often suffer from:
 
@@ -30,7 +30,7 @@ These limitations reduce patient compliance and restrict clinicians’ ability t
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 The main objectives were:
 
@@ -42,7 +42,7 @@ The main objectives were:
 
 ---
 
-# 🛠 Methodology & Design Process
+# Methodology & Design Process
 
 ## 1️⃣ Patient-Specific Design
 
@@ -134,7 +134,7 @@ The developed orthosis demonstrated:
 * benefits for both patients and clinicians through the interactive platform
 ---
 
-# 🔍 Key Insights
+# Key Insights
 
 * Personalization significantly improves wearability
 * Additive manufacturing enables rapid customization
@@ -143,12 +143,12 @@ The developed orthosis demonstrated:
 
 ---
 
-# 🚀 Impact
+# Impact
 
 This work contributes toward next-generation **smart wearable orthoses** that combine mechanical support with quantitative monitoring, supporting the transition toward data-driven rehabilitation devices.
 
 ---
-## 💻 Code & Data Processing
+## Code & Data Processing
 
 The project includes embedded sensing and data processing components used to acquire and analyze interface pressure measurements.
 
@@ -170,7 +170,7 @@ The project includes embedded sensing and data processing components used to acq
 
 ⚠️ *Note:* The repository contains representative code for demonstration purposes. Hardware-specific configurations may be simplified for portability.
 
-## 🔌 Embedded Firmware (Arduino)
+## Embedded Firmware (Arduino)
 
 The wearable brace integrates pressure sensors connected to a microcontroller for real-time data acquisition.
 
@@ -186,7 +186,7 @@ The wearable brace integrates pressure sensors connected to a microcontroller fo
 arduino/MULTIPLE_FSR_CODE.ino
 ```
 
-# 🎥 Media
+# Media
 
 ## Demo Video
 
@@ -194,7 +194,7 @@ arduino/MULTIPLE_FSR_CODE.ino
 
 ---
 
-# 📄 Documentation
+# Documentation
 
 * MSc Thesis (link: https://resolver.tudelft.nl/uuid:38cd6cb1-9a50-4695-b6f1-0d593d78411b)
 
